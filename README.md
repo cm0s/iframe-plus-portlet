@@ -6,7 +6,7 @@ IFrame+ portlet main feature is its capability to automatically resized its
 embedded IFrame even in cross-domain* configuration.
 
 Other feature :
-+ Possibility to activate a loading mask 
+	* Possibility to activate a loading mask 
 
 ***Cross-domain resizing can be used only if you have access to the source
   of the IFrame content (Javascript and css styles must be added)**
@@ -142,7 +142,7 @@ Nicolas Forney (nicolas@eforney.com)
 Credits
 =============
 Project used to develop IFrame+ :
--jQuery [http://jquery.com](http://jquery.com/)
--easyXDM [http://easyxdm.net](http://easyxdm.net/)
--jquery-loadmask [http://code.google.com/p/jquery-loadmask/](http://code.google.com/p/jquery-loadmask/)
--Liferay [http://www.liferay.com](http://www.liferay.com)
+	* jQuery [http://jquery.com](http://jquery.com/)
+	* easyXDM [http://easyxdm.net](http://easyxdm.net/)
+	* jquery-loadmask [http://code.google.com/p/jquery-loadmask/](http://code.google.com/p/jquery-loadmask/)
+	* Liferay [http://www.liferay.com](http://www.liferay.com)
