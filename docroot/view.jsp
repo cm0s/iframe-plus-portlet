@@ -24,7 +24,8 @@
   the configuration menu)*/
 	
 if(<%=maskActivated%>){
-	$("#<%=portletNamespace%>-iframe-container").mask("<liferay-ui:message key='loading'/>");
+	$("#<%=portletNamespace%>-iframe-container").closest(".portlet-content")
+	.mask("<liferay-ui:message key='loading'/>");
 }
 
 
@@ -38,9 +39,11 @@ if("<%=sourceUrl%>"){
 	    container: "<%=portletNamespace%>-iframe-container",
 	    onMessage: function(message, origin){	 
 	        if(message=="hide-loading-automatic" && "<%=endLoading%>"=="automatic"){
-	        	$("#<%=portletNamespace%>-iframe-container").unmask();
+	        	$("#<%=portletNamespace%>-iframe-container")
+	        	.closest(".portlet-content").unmask();
 			} else if(message=="hide-loading-manual" ) {
-				$("#<%=portletNamespace%>-iframe-container").unmask();
+				$("#<%=portletNamespace%>-iframe-container")
+				.closest(".portlet-content").unmask();
 			}else{
 				this.container.getElementsByTagName("iframe")[0]
 				.style.height = message	+ "px";
