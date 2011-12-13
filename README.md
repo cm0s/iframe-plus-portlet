@@ -132,6 +132,14 @@ defined in the "iframe-plus.js" script.
  </script>
 ```
 
+Internationalization (i18n)
+===========================
+Portlet is available in French and English.
+
+New Language can easily be added by creating a *.properities file for the
+language to support in the WEB-INF/src/content folder. Once created, the
+new "Language" file must be declared in the WEB-INF/liferay-hook.xml file.
+
 License
 =======
 IFrame+ portlet is distributed under the MIT license.
