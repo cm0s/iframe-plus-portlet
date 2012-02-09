@@ -30,8 +30,8 @@ if(endLoading.equals("manual")){
 	<aui:input name="redirect" type="hidden" value="<%= redirect %>" />
 	
 	<aui:fieldset>
-		<div class="portlet-msg-info"><liferay-ui:message key="configuration-msg-info"/></div>
-		<aui:input name="sourceUrl" label="input-label" value="<%=HtmlUtil.toInputSafe(sourceUrl) %>"/>			
+		<div class="portlet-msg-info"><liferay-ui:message key="configuration-msg-info"/></div>		
+		<aui:input name="sourceUrl" label="input-label" value="<%=sourceUrl%>"/>			
 	</aui:fieldset>	
 		<div class="loadmaskoption">
 			<span class="loadmaskoption-left-box inline">

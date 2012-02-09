@@ -11,12 +11,10 @@
 	String sourceUrl = preferences.getValue("sourceUrl",StringPool.BLANK);
 	String portletPath = renderResponse.encodeURL(renderRequest.getContextPath());
 	String portalHomeUrl = PortalUtil.getPortalURL(request);
-
 %>
 
 <div class="iframe-plus" id="<%=portletNamespace%>-iframe-container">
 </div>
-
 
 <script type="text/javascript">
 
@@ -27,8 +25,6 @@ if(<%=maskActivated%>){
 	$("#<%=portletNamespace%>-iframe-container").closest(".portlet-content")
 	.mask("<liferay-ui:message key='loading'/>");
 }
-
-
 
 /* Socket used to listen to the provider messages iFrame height is reset with
 the value provided by the provider through the message system */
