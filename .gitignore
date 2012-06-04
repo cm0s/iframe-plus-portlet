@@ -4,6 +4,10 @@ docroot/WEB-INF/classes
 docroot/WEB-INF/ext-impl/classes
 .class
 
+# Caches	#
+###################
+.sass-cache
+
 # Libraries	#
 ###################
 .jar
