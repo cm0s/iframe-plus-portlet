@@ -12,6 +12,11 @@ Other features:
 _*Cross-domain resizing can be used only if you have access to the source
   of the IFrame content (Javascript and CSS styles must be added)_
 
+Copyright and Licence
+-------------------------------------------
+Copyright (c) 2012 University of Geneva, Nicolas Forney (nicolas@eforney.com).
+This program is distributed under the terms of the GNU General Public License.
+  
 Glossary
 -------------------------------------------
 **Consumer page**: page in which an iFrame is embedded.

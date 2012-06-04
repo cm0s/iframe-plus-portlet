@@ -1,10 +1,3 @@
-<%
-/**
- * Copyright (c) 2011 Nicolas Forney (nicolas@eforney.com). 
- * Released under MIT Licence.
- */
-%>
-
 <%@include file="/init.jsp"%>
 
 <%

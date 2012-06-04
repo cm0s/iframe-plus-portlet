@@ -1,7 +1,3 @@
-/**
- * Copyright (c) 2011 Nicolas Forney (nicolas@eforney.com). Released under MIT Licence.
- */
-
 package ch.unige.liferay.iframeplus.action;
 
 import javax.portlet.ActionRequest;
