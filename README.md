@@ -59,7 +59,7 @@ The easyXDM library integrated with this portlet use several techniques to make
 the cross-domain communication needed for IFrame resize possible with a large
 panel of browsers (IE6+, Firefox 1+, Chrome 2+, Safari 4+, Opera 9+).
 
-To work some Javascript are needed on the consumer and on the provider page:
+To work, some Javascripts are needed on the consumer and on the provider page:
 On the provider page (page displayed in the IFrame) with the use of Javascript 
 a message is automatically sent to the consumer page (where IFrame tag is 
 defined) whenever the provider page content is resized (for example, when a 
@@ -67,6 +67,8 @@ user resizes browser width or when new content is dynamically added). On the
 consumer page, some Javascript is used to listen to the message sent by the 
 provider pages and when a new one is received it changes the IFrame dimension 
 (the message contains the new page height). 
+
+![IFrame+ schema no navigation](docroot/doc/images/swappiframeplus-no-navigation-schema.jpg)
 
 How to install Iframe+ portlet
 ===============================
