@@ -1,16 +1,23 @@
-# Eclipse files #
-###################
-/.settings
-/.classpath
-/.project
-
 # Compiled source #
 ###################
-*.class
+docroot/WEB-INF/classes
+docroot/WEB-INF/ext-impl/classes
+.class
 
-# OS generated files #
-######################
-.DS_Store*
-ehthumbs.db
-Icon?
-Thumbs.db
+# Caches	#
+###################
+.sass-cache
+
+# Libraries	#
+###################
+.jar
+
+# Logs files #
+###################
+.log
+
+# Eclipse files #
+###################
+.settings
+.classpath
+.project

@@ -1,9 +1,3 @@
-<%
-/**
- * Copyright (c) 2011 Nicolas Forney (nicolas@eforney.com). Released under MIT Licence.
- */
-%>
-
 <%@ taglib uri="http://java.sun.com/portlet_2_0" prefix="portlet" %>
 
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
