@@ -1,5 +1,12 @@
 #IFrame+ Changelog
 
+
+##v0.3.0 (2012-06-06)
+
+* [New feature] Added new explanations in the README and example files to avoid loosing easyXDM socket connection when doing 
+  inner navigation into the embedded web page.
+  [Licence] Modified licence from MIT to GNU GPL.
+
 ##v0.2.3 (2011-12-13)
 
 * [Improvement] Loading mask is now displayed all over the portlet container, not only over the IFrame container.
