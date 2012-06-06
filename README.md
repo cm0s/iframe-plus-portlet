@@ -112,7 +112,7 @@ It's up to you to choose one of these two configurations depending on your need.
 
 How to install Iframe+ portlet 
 ===============================
-###Intallation for Configuration n°1 (web site without navigation)
+###Intallation for Configuration n°1 (web site without inner navigation)
 #####On the portal (consumer page)
 1. Deploy the portlet in your Liferay server (you can use the user interface or
    place the *.war file in the deploy folder for auto deploy.)
@@ -153,7 +153,7 @@ How to install Iframe+ portlet
  </script>
 ```
 
-###Intallation for Configuration n°2 (web site with navigation)
+###Intallation for Configuration n°2 (web site with inner navigation)
 Installation for the configuration n°2 is similar to the configuration n°1. 
 However, you have to create the Intermediary page and make it accessible. 
 You can create the Intermediary page by using the css and the javascript files
@@ -165,11 +165,11 @@ the correct javascript lines of codes and css styles.
 Once the Intermediary page created you have to indicates through the configuration 
 page of the portlet (see "IFrame+ portlet configuration options" screenshot at the 
 begining of the README) the URL of the Intermediary page you just created. 
-The url must have an "url" parameter which contain the url of the home page. 
-For exemple. If your Intermediary page URL is the following : 
-http://your.webapp.com/intermediary and your main page is
-http://your.webapp.com, the URL to put into the "Web site URL" field of the portlet 
-configuration page is : http://your.webapp.com/intermediary?url=http://your.webapp.com
+The url must have an "url" parameter which contain the URL of the home page. 
+For exemple, if your Intermediary page URL is : http://your.webapp.com/intermediary 
+and your main page is http://your.webapp.com, the URL to put into the "Web site URL" 
+field of the portlet configuration page is : 
+http://your.webapp.com/intermediary?url=http://your.webapp.com
 
 
 Loading mask option
@@ -215,7 +215,6 @@ License
 =======
 Copyright (c) 2012 University of Geneva, Nicolas Forney (nicolas@eforney.com).
 This program is distributed under the terms of the GNU General Public License.
-IFrame+ portlet is distributed under the MIT license.
 
 Author
 ============
