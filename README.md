@@ -209,7 +209,7 @@ new "Language" file must be declared in the WEB-INF/liferay-hook.xml file.
 
 Liferay version tested
 ===========================
-This portlet has been tested on Liferay 6.0 and 6.1.
+This portlet has been tested on Liferay 6.1EE.
 
 License
 =======
