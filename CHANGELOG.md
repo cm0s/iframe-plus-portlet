@@ -1,6 +1,11 @@
 #IFrame+ Changelog
 
 
+##v0.3.1 (2012-06-07)
+
+* [Hotfix] Renamed liferay-aui.tld dependency to aui.tld (liferay-aui.tld is deprecated, see http://issues.liferay.com/browse/LPS-25302)
+* [Documentation] Corrected tested Liferay versions (6.1EE)
+
 ##v0.3.0 (2012-06-06)
 
 * [New feature] Added new explanations in the README and example files to avoid loosing easyXDM socket connection when doing 
